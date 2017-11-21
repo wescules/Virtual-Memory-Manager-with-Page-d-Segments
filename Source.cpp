@@ -24,11 +24,19 @@ void startDisk(int process_ID, string read_write, int frame_index, string disk_a
 
 }
 
+
+//extract segment number
+
+//extract page number
+
 //read file into memory
-void readFile(string filename){
-    ifstream infile;
-    infile.open(filename);
-    
+void readFile(string filename, int n){
+    ifstream infile(filename)
+    for(int i =0;i<n;i++){
+
+    }
+
+    infile.close();
 
 }
 
